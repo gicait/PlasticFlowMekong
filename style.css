@@ -232,8 +232,8 @@ header.sticky{
 .container-box1{
     background: var(--bg-color);
     border: 1px solid #f0eded;
-    padding: 25px 5px;
-    border-radius: 2px;
+    padding: 15px 10px;
+    border-radius: 4px;
     transition: all 1s ease 0s;
 }
 
@@ -266,6 +266,7 @@ header.sticky{
 .explain p{
     font-size: 15px;
     text-align: left;
+    color: var(--second-color);
 }
 
 .container-box1 p{
@@ -279,15 +280,6 @@ header.sticky{
     transform: translateY(-3px);
 }
 
-.container-box1{
-    background: var(--bg-color);
-    border: 1px solid #f0eded;
-    padding: 50px 10px;
-    border-radius: 4px;
-    transition: all 1s ease 0s;
-    cursor: pointer;
-}
-
 
 /* Partner */
 .container-box{
@@ -299,13 +291,94 @@ header.sticky{
     cursor: pointer;
 }
 
+.container-box3{
+    background: var(--bg-color);
+    border: 1px solid #f0eded;
+    padding: 67px 12px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+
+.container-box4{
+    background: var(--bg-color);
+    border: 1px solid #f0eded;
+    padding: 67px 10px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+
+.container-box5{
+    background: var(--bg-color);
+    border: 1px solid #f0eded;
+    padding: 67px 10px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+
+.container-box6{
+    background: var(--bg-color);
+    border: 1px solid #f0eded;
+    padding: 67px 10px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+
+
 .container-img img{
-    height: 85px;
-    width: 85px;
+    height: 110px;
+    width: 120px;
     padding: 15px;
     background: var(--bg-color);
     box-shadow: 5px 10px 30px rgb(85 85 85/20%);
-    border-radius: 4px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.container-img3 img{
+    height: 105px;
+    width: 160px;
+    padding: 15px;
+    background: var(--bg-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.container-img4 img{
+    height: 105px;
+    width: 125px;
+    padding: 15px;
+    background: var(--bg-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.container-img5 img{
+    height: 105px;
+    width: 160px;
+    padding: 15px;
+    background: var(--bg-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.container-img6 img{
+    height: 105px;
+    width: 105px;
+    padding: 15px;
+    background: var(--bg-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
+    border-radius: 8px;
     margin-bottom: 15px;
     cursor: pointer;
 }
@@ -316,7 +389,51 @@ header.sticky{
     margin-bottom: 8px;
 }
 
+.container-box3 h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.container-box4 h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.container-box5 h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.container-box6 h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
 .container-box p{
+    font-size: 15px;
+    color: var(--second-color);
+}
+
+.container-box3 p{
+    font-size: 15px;
+    color: var(--second-color);
+}
+
+.container-box4 p{
+    font-size: 15px;
+    color: var(--second-color);
+}
+
+.container-box5 p{
+    font-size: 15px;
+    color: var(--second-color);
+}
+
+.container-box6 p{
     font-size: 15px;
     color: var(--second-color);
 }
@@ -326,6 +443,31 @@ header.sticky{
     border: 1px solid transparent;
     transform: translateY(-3px);
 }
+
+.container-box3:hover{
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+    border: 1px solid transparent;
+    transform: translateY(-3px);
+}
+
+.container-box4:hover{
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+    border: 1px solid transparent;
+    transform: translateY(-3px);
+}
+
+.container-box5:hover{
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+    border: 1px solid transparent;
+    transform: translateY(-3px);
+}
+
+.container-box6:hover{
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+    border: 1px solid transparent;
+    transform: translateY(-3px);
+}
+
 
 
 .title{
