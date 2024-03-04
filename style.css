@@ -220,7 +220,7 @@ header.sticky{
     line-height: 1.1;
 }
 
-.row-items1{
+.row-items01{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(325px, auto));
     grid-gap: 5rem;
@@ -229,7 +229,7 @@ header.sticky{
     margin-top: 5rem;
 }
 
-.container-box1{
+.container-box01{
     background: var(--bg-color);
     border: 1px solid #f0eded;
     padding: 15px 10px;
@@ -237,7 +237,7 @@ header.sticky{
     transition: all 1s ease 0s;
 }
 
-.container-img1 img{
+.container-img01 img{
     height: 500px;
     width: 400px;
     padding: 15px;
@@ -248,7 +248,7 @@ header.sticky{
     cursor: pointer;
 }
 
-.container-box1 h4{
+.container-box01 h4{
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 8px;
@@ -269,23 +269,31 @@ header.sticky{
     color: var(--second-color);
 }
 
-.container-box1 p{
+.container-box01 p{
     font-size: 15px;
     color: var(--second-color);
 }
 
-.container-box1:hover{
+.container-box01:hover{
     box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
     border: 1px solid transparent;
     transform: translateY(-3px);
 }
 
-
 /* Partner */
-.container-box{
+.container-box1{
     background: var(--bg-color);
     border: 1px solid #f0eded;
-    padding: 50px 10px;
+    padding: 50px 12px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+
+.container-box2{
+    background: var(--bg-color);
+    border: 1px solid #f0eded;
+    padding: 50px 12px;
     border-radius: 4px;
     transition: all 1s ease 0s;
     cursor: pointer;
@@ -294,7 +302,7 @@ header.sticky{
 .container-box3{
     background: var(--bg-color);
     border: 1px solid #f0eded;
-    padding: 67px 12px;
+    padding: 50px 12px;
     border-radius: 4px;
     transition: all 1s ease 0s;
     cursor: pointer;
@@ -303,7 +311,7 @@ header.sticky{
 .container-box4{
     background: var(--bg-color);
     border: 1px solid #f0eded;
-    padding: 67px 10px;
+    padding: 50px 12px;
     border-radius: 4px;
     transition: all 1s ease 0s;
     cursor: pointer;
@@ -312,7 +320,7 @@ header.sticky{
 .container-box5{
     background: var(--bg-color);
     border: 1px solid #f0eded;
-    padding: 67px 10px;
+    padding: 50px 12px;
     border-radius: 4px;
     transition: all 1s ease 0s;
     cursor: pointer;
@@ -321,14 +329,51 @@ header.sticky{
 .container-box6{
     background: var(--bg-color);
     border: 1px solid #f0eded;
-    padding: 67px 10px;
+    padding: 50px 12px;
     border-radius: 4px;
     transition: all 1s ease 0s;
     cursor: pointer;
 }
 
+.container-box7{
+    background: var(--bg-color);
+    border: 1px solid #f0eded;
+    padding: 50px 12px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
 
-.container-img img{
+.container-box8{
+    background: var(--bg-color);
+    border: 1px solid #f0eded;
+    padding: 50px 12px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+
+.container-box9{
+    background: var(--bg-color);
+    border: 1px solid #f0eded;
+    padding: 50px 12px;
+    border-radius: 4px;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+
+.container-img1 img{
+    height: 110px;
+    width: 120px;
+    padding: 15px;
+    background: var(--bg-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.container-img2 img{
     height: 110px;
     width: 120px;
     padding: 15px;
@@ -363,7 +408,7 @@ header.sticky{
 
 .container-img5 img{
     height: 105px;
-    width: 160px;
+    width: 130px;
     padding: 15px;
     background: var(--bg-color);
     box-shadow: 5px 10px 30px rgb(85 85 85/20%);
@@ -374,7 +419,7 @@ header.sticky{
 
 .container-img6 img{
     height: 105px;
-    width: 105px;
+    width: 160px;
     padding: 15px;
     background: var(--bg-color);
     box-shadow: 5px 10px 30px rgb(85 85 85/20%);
@@ -383,7 +428,46 @@ header.sticky{
     cursor: pointer;
 }
 
-.container-box h4{
+.container-img7 img{
+    height: 110px;
+    width: 120px;
+    padding: 15px;
+    background: var(--bg-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.container-img8 img{
+    height: 110px;
+    width: 180px;
+    padding: 15px;
+    background: var(--bg-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.container-img9 img{
+    height: 110px;
+    width: 120px;
+    padding: 15px;
+    background: var(--bg-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.container-box1 h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.container-box2 h4{
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 8px;
@@ -413,7 +497,30 @@ header.sticky{
     margin-bottom: 8px;
 }
 
-.container-box p{
+.container-box7 h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.container-box8 h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.container-box9 h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.container-box1 p{
+    font-size: 15px;
+    color: var(--second-color);
+}
+
+.container-box2 p{
     font-size: 15px;
     color: var(--second-color);
 }
@@ -438,7 +545,28 @@ header.sticky{
     color: var(--second-color);
 }
 
-.container-box:hover{
+.container-box7 p{
+    font-size: 15px;
+    color: var(--second-color);
+}
+
+.container-box8 p{
+    font-size: 15px;
+    color: var(--second-color);
+}
+
+.container-box9 p{
+    font-size: 15px;
+    color: var(--second-color);
+}
+
+.container-box1:hover{
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+    border: 1px solid transparent;
+    transform: translateY(-3px);
+}
+
+.container-box2:hover{
     box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
     border: 1px solid transparent;
     transform: translateY(-3px);
@@ -468,6 +596,23 @@ header.sticky{
     transform: translateY(-3px);
 }
 
+.container-box7:hover{
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+    border: 1px solid transparent;
+    transform: translateY(-3px);
+}
+
+.container-box8:hover{
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+    border: 1px solid transparent;
+    transform: translateY(-3px);
+}
+
+.container-box9:hover{
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+    border: 1px solid transparent;
+    transform: translateY(-3px);
+}
 
 
 .title{
