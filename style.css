@@ -203,6 +203,7 @@ header.sticky{
 .text h2{
     font-size: var(--h2-font);
     line-height: 1.1;
+    text-align: center;
 }
 
 .row-items{
@@ -213,6 +214,39 @@ header.sticky{
     text-align: center;
     margin-top: 5rem;
 }
+
+/* ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    text-align: center;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+} */
 
 /* About us */
 .text1 h2{
@@ -281,7 +315,7 @@ header.sticky{
 }
 
 /* Partner */
-.container-box1{
+/* .container-box1{
     background: var(--bg-color);
     border: 1px solid #f0eded;
     padding: 50px 12px;
@@ -360,11 +394,21 @@ header.sticky{
     border-radius: 4px;
     transition: all 1s ease 0s;
     cursor: pointer;
+} */
+
+.container-box10{
+    background: var(--bg-color);
+    /* border: 1px solid #f0eded; */
+    padding: 85px 1px;
+    border-radius: 40px;
+    /* transition: all 1s ease 0s; */
+    /* cursor: pointer; */
+    align-items: center;
 }
 
-.container-img1 img{
+/* .container-img1 img{
     height: 110px;
-    width: 120px;
+    width: 250px;
     padding: 15px;
     background: var(--bg-color);
     box-shadow: 5px 10px 30px rgb(85 85 85/20%);
@@ -459,9 +503,20 @@ header.sticky{
     border-radius: 8px;
     margin-bottom: 15px;
     cursor: pointer;
+} */
+
+.container-img10 img{
+    height: 110px;
+    width: auto;
+    padding: 15px;
+    background: var(--bg-color);
+    /* box-shadow: 5px 10px 30px rgb(85 85 85/20%); */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    /* cursor: pointer; */
 }
 
-.container-box1 h4{
+/* .container-box1 h4{
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 8px;
@@ -513,9 +568,15 @@ header.sticky{
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 8px;
+} */
+
+.container-box10 h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
 }
 
-.container-box1 p{
+/* .container-box1 p{
     font-size: 15px;
     color: var(--second-color);
 }
@@ -558,9 +619,14 @@ header.sticky{
 .container-box9 p{
     font-size: 15px;
     color: var(--second-color);
+} */
+
+.container-box10 p{
+    font-size: 15px;
+    color: var(--second-color);
 }
 
-.container-box1:hover{
+/* .container-box1:hover{
     box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
     border: 1px solid transparent;
     transform: translateY(-3px);
@@ -612,7 +678,13 @@ header.sticky{
     box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
     border: 1px solid transparent;
     transform: translateY(-3px);
-}
+} */
+
+/* .container-box10:hover{
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+    border: 1px solid transparent;
+    transform: translateY(-3px);
+} */
 
 
 .title{
