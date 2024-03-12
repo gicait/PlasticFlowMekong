@@ -35,6 +35,7 @@ header{
     background: transparent;
     padding: 30px 18%;
     transition: ease .40s;
+
 }
 
 .logo{
@@ -67,64 +68,6 @@ span{
     box-shadow: 5px 10px 30px rgb(85 85 85/20%);
     border-radius: 4px;
 }
-
-/* dropdown */
-
-/* ul{
-    list-style: none;
-}
-
-ul li{
-    display: inline-block;
-    position: relative;
-}
-
-ul li a{
-    display: block;
-    padding: 20px 25px;
-    color: var(--second-color);
-    text-decoration: none;
-    text-align: left;
-    font-size: 20px;
-}
-
-ul li ul.dropdown li{
-    display: block;
-}
-
-ul li ul.dropdown{
-    width: 100%;
-    background: var(--bg-color);
-    position: absolute;
-    z-index: 999;
-    display: none;
-    border-radius: 2px;
-}
-
-ul li a:hover{
-    background-color: var(--second-color);
-}
-
-ul li:hover ul.dropdown{
-    display: block;
-}
-
-header ul li ul{
-    position: absolute;
-    width: 200px;
-    background: fixed;
-    display: none;
-}
-
-header ul li:hover ul{
-    display: block;
-}
-
-header ul li ul li{
-    position: relative;
-    width: 100%;
-    margin-bottom: 8px;
-} */
 
 #menu-icon{
     color: var(--second-color);
@@ -215,43 +158,11 @@ header.sticky{
     margin-top: 5rem;
 }
 
-/* ul{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-ul li{
-    display: inline-block;
-    position: relative;
-}
-
-ul li a{
-    display: block;
-    padding: 20px 25px;
-    text-align: center;
-}
-
-ul li ul.dropdown li{
-    display: block;
-}
-
-ul li ul.dropdown{
-    width: 100%;
-    position: absolute;
-    z-index: 999;
-    display: none;
-}
-
-ul li:hover ul.dropdown{
-    display: block;
-} */
-
 /* About us */
 .text1 h2{
     font-size: var(--h2-font);
     line-height: 1.1;
+    /* text-align: center; */
 }
 
 .row-items01{
@@ -279,7 +190,7 @@ ul li:hover ul.dropdown{
     box-shadow: 5px 10px 30px rgb(85 85 85/20%);
     border-radius: 4px;
     margin-bottom: 15px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .container-box01 h4{
@@ -287,6 +198,7 @@ ul li:hover ul.dropdown{
     font-weight: 600;
     margin-bottom: 8px;
 }
+
 .explain h4{
     font-size: var(--h2-font);
     line-height: 1.1;
@@ -300,6 +212,8 @@ ul li:hover ul.dropdown{
 .explain p{
     font-size: 15px;
     text-align: left;
+    display: flex;
+    justify-content: flex-start;
     color: var(--second-color);
 }
 
@@ -308,202 +222,20 @@ ul li:hover ul.dropdown{
     color: var(--second-color);
 }
 
-.container-box01:hover{
+/* .container-box01:hover{
     box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
     border: 1px solid transparent;
     transform: translateY(-3px);
-}
-
-/* Partner */
-/* .container-box1{
-    background: var(--bg-color);
-    border: 1px solid #f0eded;
-    padding: 50px 12px;
-    border-radius: 4px;
-    transition: all 1s ease 0s;
-    cursor: pointer;
-}
-
-.container-box2{
-    background: var(--bg-color);
-    border: 1px solid #f0eded;
-    padding: 50px 12px;
-    border-radius: 4px;
-    transition: all 1s ease 0s;
-    cursor: pointer;
-}
-
-.container-box3{
-    background: var(--bg-color);
-    border: 1px solid #f0eded;
-    padding: 52.5px 12px;
-    border-radius: 4px;
-    transition: all 1s ease 0s;
-    cursor: pointer;
-}
-
-.container-box4{
-    background: var(--bg-color);
-    border: 1px solid #f0eded;
-    padding: 79px 12px;
-    border-radius: 4px;
-    transition: all 1s ease 0s;
-    cursor: pointer;
-}
-
-.container-box5{
-    background: var(--bg-color);
-    border: 1px solid #f0eded;
-    padding: 50px 12px;
-    border-radius: 4px;
-    transition: all 1s ease 0s;
-    cursor: pointer;
-}
-
-.container-box6{
-    background: var(--bg-color);
-    border: 1px solid #f0eded;
-    padding: 91px 12px;
-    border-radius: 4px;
-    transition: all 1s ease 0s;
-    cursor: pointer;
-}
-
-.container-box7{
-    background: var(--bg-color);
-    border: 1px solid #f0eded;
-    padding: 70px 12px;
-    border-radius: 4px;
-    transition: all 1s ease 0s;
-    cursor: pointer;
-}
-
-.container-box8{
-    background: var(--bg-color);
-    border: 1px solid #f0eded;
-    padding: 85px 12px;
-    border-radius: 4px;
-    transition: all 1s ease 0s;
-    cursor: pointer;
-}
-
-.container-box9{
-    background: var(--bg-color);
-    border: 1px solid #f0eded;
-    padding: 85px 12px;
-    border-radius: 4px;
-    transition: all 1s ease 0s;
-    cursor: pointer;
 } */
 
 .container-box10{
     background: var(--bg-color);
-    /* border: 1px solid #f0eded; */
     padding: 85px 1px;
     border-radius: 40px;
-    /* transition: all 1s ease 0s; */
-    /* cursor: pointer; */
     align-items: center;
+    height: 100%;
+    width: 100%;
 }
-
-/* .container-img1 img{
-    height: 110px;
-    width: 250px;
-    padding: 15px;
-    background: var(--bg-color);
-    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
-    border-radius: 8px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.container-img2 img{
-    height: 110px;
-    width: 120px;
-    padding: 15px;
-    background: var(--bg-color);
-    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
-    border-radius: 8px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.container-img3 img{
-    height: 105px;
-    width: 160px;
-    padding: 15px;
-    background: var(--bg-color);
-    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
-    border-radius: 8px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.container-img4 img{
-    height: 105px;
-    width: 125px;
-    padding: 15px;
-    background: var(--bg-color);
-    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
-    border-radius: 8px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.container-img5 img{
-    height: 105px;
-    width: 130px;
-    padding: 15px;
-    background: var(--bg-color);
-    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
-    border-radius: 8px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.container-img6 img{
-    height: 105px;
-    width: 160px;
-    padding: 15px;
-    background: var(--bg-color);
-    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
-    border-radius: 8px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.container-img7 img{
-    height: 110px;
-    width: 120px;
-    padding: 15px;
-    background: var(--bg-color);
-    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
-    border-radius: 8px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.container-img8 img{
-    height: 110px;
-    width: 180px;
-    padding: 15px;
-    background: var(--bg-color);
-    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
-    border-radius: 8px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.container-img9 img{
-    height: 110px;
-    width: 120px;
-    padding: 15px;
-    background: var(--bg-color);
-    box-shadow: 5px 10px 30px rgb(85 85 85/20%);
-    border-radius: 8px;
-    margin-bottom: 15px;
-    cursor: pointer;
-} */
 
 .container-img10 img{
     height: 110px;
@@ -514,61 +246,9 @@ ul li:hover ul.dropdown{
     border-radius: 8px;
     margin-bottom: 15px;
     /* cursor: pointer; */
+    /* height: 15%;
+    width: 15%; */
 }
-
-/* .container-box1 h4{
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.container-box2 h4{
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.container-box3 h4{
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.container-box4 h4{
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.container-box5 h4{
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.container-box6 h4{
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.container-box7 h4{
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.container-box8 h4{
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.container-box9 h4{
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 8px;
-} */
 
 .container-box10 h4{
     font-size: 24px;
@@ -576,109 +256,10 @@ ul li:hover ul.dropdown{
     margin-bottom: 8px;
 }
 
-/* .container-box1 p{
-    font-size: 15px;
-    color: var(--second-color);
-}
-
-.container-box2 p{
-    font-size: 15px;
-    color: var(--second-color);
-}
-
-.container-box3 p{
-    font-size: 15px;
-    color: var(--second-color);
-}
-
-.container-box4 p{
-    font-size: 15px;
-    color: var(--second-color);
-}
-
-.container-box5 p{
-    font-size: 15px;
-    color: var(--second-color);
-}
-
-.container-box6 p{
-    font-size: 15px;
-    color: var(--second-color);
-}
-
-.container-box7 p{
-    font-size: 15px;
-    color: var(--second-color);
-}
-
-.container-box8 p{
-    font-size: 15px;
-    color: var(--second-color);
-}
-
-.container-box9 p{
-    font-size: 15px;
-    color: var(--second-color);
-} */
-
 .container-box10 p{
     font-size: 15px;
     color: var(--second-color);
 }
-
-/* .container-box1:hover{
-    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-    border: 1px solid transparent;
-    transform: translateY(-3px);
-}
-
-.container-box2:hover{
-    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-    border: 1px solid transparent;
-    transform: translateY(-3px);
-}
-
-.container-box3:hover{
-    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-    border: 1px solid transparent;
-    transform: translateY(-3px);
-}
-
-.container-box4:hover{
-    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-    border: 1px solid transparent;
-    transform: translateY(-3px);
-}
-
-.container-box5:hover{
-    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-    border: 1px solid transparent;
-    transform: translateY(-3px);
-}
-
-.container-box6:hover{
-    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-    border: 1px solid transparent;
-    transform: translateY(-3px);
-}
-
-.container-box7:hover{
-    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-    border: 1px solid transparent;
-    transform: translateY(-3px);
-}
-
-.container-box8:hover{
-    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-    border: 1px solid transparent;
-    transform: translateY(-3px);
-}
-
-.container-box9:hover{
-    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-    border: 1px solid transparent;
-    transform: translateY(-3px);
-} */
 
 /* .container-box10:hover{
     box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
@@ -714,6 +295,7 @@ ul li:hover ul.dropdown{
 .thum img{
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .thum h3{
@@ -796,7 +378,7 @@ ul li:hover ul.dropdown{
 } 
 
 .col-content img:hover{
-    filter: brightness(100%) hue-rotate(45deg);
+    filter: brightness(100%);
     transform: scale(1.04);
     cursor: pointer;
 }
