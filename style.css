@@ -333,7 +333,7 @@ header.sticky{
 }
 
 .thum:hover{
-    filter: brightness(100%) hue-rotate(45deg);
+    filter: brightness(80%);
     transform: scale(1.04);
 }
 
