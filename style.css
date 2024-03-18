@@ -35,7 +35,6 @@ header{
     background: transparent;
     padding: 30px 18%;
     transition: ease .40s;
-
 }
 
 .logo{
@@ -336,7 +335,7 @@ header.sticky{
 }
 
 .thum:hover{
-    filter: brightness(80%);
+    filter: brightness(112%);
     transform: scale(1.04);
 }
 
