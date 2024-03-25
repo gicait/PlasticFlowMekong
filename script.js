@@ -17,14 +17,13 @@ window.onscroll = () => {
     navbar.classList.remove('open');
 }
 
-
-    $('section').each(function(){
-        var top = $(window).scrollTop();
-        var id = $(this).attr('id');
-        var height = $(this).height();
-        var top = $(this).offset().top - 200;
-        if(top >= offset && top < height + offset){
-            $('.navbar ul li a').removeClass('active');
-            $('.navbar').find('[href="#' + id +'"]').addClass('active');
-        }
-    });
+// $('section').each(function(){
+//     var id = $(this).attr('id');
+//     var height = $(this).height();
+//     var offset = $(this).offset().top - 200;
+//     var top = $(window).scrollTop();
+//     if(top >= offset && top < offset + height){
+//         $('.navbar ul li a').removeClass('active');
+//         $('.navbar').find('[data-scroll="#' + id +'"]').addClass('active');
+//     }
+// });
