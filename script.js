@@ -15,5 +15,16 @@ menu.onclick = () => {
 window.onscroll = () => {
     menu.classList.remove('bx-x');
     navbar.classList.remove('open');
-
 }
+
+
+    $('section').each(function(){
+        var top = $(window).scrollTop();
+        var id = $(this).attr('id');
+        var height = $(this).height();
+        var top = $(this).offset().top - 200;
+        if(top >= offset && top < height + offset){
+            $('.navbar ul li a').removeClass('active');
+            $('.navbar').find('[href="#' + id +'"]').addClass('active');
+        }
+    });
