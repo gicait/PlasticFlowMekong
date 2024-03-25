@@ -238,11 +238,6 @@ header.sticky{
     color: var(--second-color);
 }
 
-.feature{
-    height: 100vh;
-    background: #fff;
-}
-
 .feature .card-container{
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(340px, auto));
@@ -275,7 +270,7 @@ header.sticky{
 
 .feature .card-container .content .title1{
     color: var(--second-color);
-    font-size: 2rem;  
+    font-size: var(--h2-font);  
 }
 
 .feature .card-container .content p{
@@ -296,6 +291,7 @@ header.sticky{
     color: #fff;
     cursor: pointer;
     transform: .4s linear;
+    font-weight: 600;
 }
 
 .feature .card-container .content .btn:hover{
@@ -363,7 +359,6 @@ header.sticky{
 
 .title{
     text-align: center;
-    margin-top: 60%;
 }
 
 .title h2{
