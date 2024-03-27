@@ -217,7 +217,8 @@ header.sticky{
     text-align: left;
     display: flex;
     justify-content: flex-start;
-    color: var(--second-color);
+    color: #1b78b6;
+    text-align: justify;
 }
 
 .container-box01 p{
