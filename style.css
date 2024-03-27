@@ -161,6 +161,12 @@ header.sticky{
 .text1 h2{
     font-size: var(--h2-font);
     line-height: 1.1;
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
 }
 
 .row-items01{
@@ -232,6 +238,14 @@ header.sticky{
     padding-top: 0.3rem;
     text-align: center;
     letter-spacing: .2rem;
+    font-size: var(--h2-font);
+    line-height: 1.1;
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
 }
 
 .heading span{
@@ -314,6 +328,17 @@ header.sticky{
     border-radius: .2rem;
 }
 
+.text h2{
+    font-size: var(--h2-font);
+    line-height: 1.2;
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
+}
+
 .container-box10{
     background: var(--bg-color);
     padding: 85px 1px;
@@ -364,6 +389,12 @@ header.sticky{
 .title h2{
     font-size: var(--h2-font);
     line-height: 1.2;
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
 }
 
 .package-content{
