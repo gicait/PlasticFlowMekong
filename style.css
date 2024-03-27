@@ -622,6 +622,34 @@ header.sticky{
     transform: scale(1.1);
 }
 
+.list .social1 iframe{
+    display: inline-block;
+    border-radius: 15px;
+    width: 30rem;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,0.3);
+    overflow: hidden;
+    position: relative;
+}
+
+.list h4{
+    display: inline-block;
+    font-size: 21px;
+    color: var(--bg-color);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.list h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    right: 0;
+    bottom: -10px;
+    background: var(--bg-color);
+}
+
 .end-text{
     text-align: center;
     padding-top: 90px;
