@@ -683,9 +683,9 @@ header.sticky{
         transition: .2s;
     }
     :root{
-        --big-font: 9rem;
-        --h2-font: 3.2rem;
-        --p-font: 1.2rem;
+        --big-font: 6rem;
+        --h2-font: 2.3rem;
+        --p-font: 1rem;
         transition: .2s;
     }
 }
