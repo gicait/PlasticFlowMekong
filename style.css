@@ -169,6 +169,10 @@ header.sticky{
     background: rgba(255, 51, 153, .05);
 }
 
+.text1 span{
+    color: #1b78b6;
+}
+
 .row-items01{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(325px, auto));
@@ -176,10 +180,13 @@ header.sticky{
     align-items: center;
     text-align: center;
     margin-top: 3rem;
+    /* background: rgba(255, 51, 153, .05);
+    border-radius: 8px; */
 }
 
 /* .container-box01{
     background: var(--bg-color);
+    background: rgba(255, 51, 153, .05);
     border: 1px solid #f0eded;
     padding: 15px 10px;
     border-radius: 4px;
@@ -250,7 +257,7 @@ header.sticky{
 }
 
 .heading span{
-    color: var(--second-color);
+    color: #1b78b6;
 }
 
 .feature .card-container{
@@ -258,13 +265,14 @@ header.sticky{
     grid-template-columns: repeat(auto-fit, minmax(340px, auto));
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     width: 100%;
 }
 
 .feature .card-container .card{
-    width: 30rem;
-    margin: 2rem;
+    width: 15rem;
+    margin: 1rem;
     background: #fff;
     border-radius: .5rem;
     box-shadow: 0 .3rem .5rem rgba(0,0,0,0.3);
@@ -273,7 +281,7 @@ header.sticky{
 }
 
 .feature .card-container .card img{
-    height: 25rem;
+    height: 15rem;
     width: 100%;
     object-fit: cover;
 }
@@ -285,17 +293,17 @@ header.sticky{
 
 .feature .card-container .content .title1{
     color: var(--second-color);
-    font-size: var(--h2-font);  
+    font-size: 2rem;  
 }
 
 .feature .card-container .content p{
     color: var(--text-color);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 1rem;
 }
 
 .feature .card-container .content .btn{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-top: 1.4rem;
     height: 3.5rem;
     width: 12rem;
@@ -354,7 +362,6 @@ header.sticky{
     width: auto;
     padding: 15px;
     background: var(--bg-color);
-    /* box-shadow: 5px 10px 30px rgb(85 85 85/20%); */
     border-radius: 8px;
     margin-bottom: 15px;
     cursor: pointer;
@@ -376,13 +383,6 @@ header.sticky{
     color: var(--second-color);
 }
 
-/* .container-box10:hover{
-    box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-    border: 1px solid transparent;
-    transform: translateY(-3px);
-} */
-
-
 .title{
     text-align: center;
 }
@@ -396,6 +396,10 @@ header.sticky{
     padding: 1rem;
     margin: 2rem 0;
     background: rgba(255, 51, 153, .05);
+}
+
+.title span{
+    color: #1b78b6;
 }
 
 .package-content{
@@ -503,6 +507,10 @@ header.sticky{
     filter: brightness(100%);
     transform: scale(1.04);
     cursor: pointer;
+}
+
+.text span{
+    color: #1b78b6;
 }
 
 .newsletter{
