@@ -217,7 +217,7 @@ h2, p { color: #666666; }
 
 .tm-thumbnail-container { overflow: hidden; }
 .tm-thumbnail-container img { transition: all 0.3s ease; }
-.tm-thumbnail-container:hover img { transform: scale(1.2) rotate(5deg); }
+.tm-thumbnail-container:hover img { transform: scale(1.2) rotate(0deg); }
 
 .tm-img-overlay {
     top: 0;
@@ -234,7 +234,7 @@ h2, p { color: #666666; }
 
 .tm-overlay-icon {
     color: #a7a7a7;
-    opacity: 1;
+    opacity: 0;
     font-size: 2rem;
     padding: 10px 15px;
     background-color: rgba(0,0,0,0.5);
@@ -339,7 +339,7 @@ h2, p { color: #666666; }
 }
 
 .tm-likes-box { padding-top: 12px; }
-.tm-video-description-box { max-width: 920px; }
+.tm-video-description-box { max-width: 1000px; }
 .tm-text-gray { color: #6F7071; }
 
 .tm-fixed-header {
